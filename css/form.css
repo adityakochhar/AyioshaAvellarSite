@@ -1,0 +1,90 @@
+/* Form Container */
+
+.content {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: left;
+}
+
+.formbold-mb-5 {
+    margin-bottom: 10%;
+}
+.formbold-pt-3 {
+    padding-top: 2%;
+}
+.formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 80%;
+    width: 80%;
+    background: rgb(0, 0, 0);
+}
+.formbold-form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 2%;
+}
+.formbold-form-label-2 {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+}
+
+.formbold-form-input {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+}
+.formbold-form-input:focus {
+    border-color: #ff5e14;
+    box-shadow: 0px 3px 8px rgba(255, 255, 255, 0.349);
+}
+
+.formbold-btn {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5% 10%;
+    border: none;
+    font-weight: 600;
+    background-color: #6d6d6d;
+    color: white;
+    cursor: pointer; 
+}
+
+.formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(255, 255, 255, 0.192);
+    background-color: #ff5e14;
+}
+
+.formbold--mx-3 {
+    margin-left: -2%;
+    margin-right: -2%;
+}
+.formbold-px-3 {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.w-full {
+    width: 100%;
+}

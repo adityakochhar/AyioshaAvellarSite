@@ -1,0 +1,111 @@
+:root {
+    --grey: #666;
+    --white: #ffffff;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 1em;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: var(--grey);
+    margin: 1%;
+    background-color: black;
+}
+
+.section-sea {
+    height: 50%;
+    background-color: black;
+}
+
+.section-orange {
+    background: #000000;
+    color: #ddd;
+    margin: 0;
+}
+
+.section-dark {
+    background: #000000;
+    color: #ddd;
+    margin: 0;
+}
+
+.ptext {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.border {
+    color: rgb(255, 255, 255);
+}
+
+/* 2 parallax , eu quero ver o mar*/
+
+.bannerSea {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-item-left {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.audioControls {
+    width: 100%;
+}
+
+.musicalLinks {
+    display: flex;
+    margin-bottom: 1%;
+}
+
+.musicalLinks img:hover {
+    scale: 90%;
+}
+
+.musicalLinks img {
+    width: 80%;
+}
+
+/* Typewriter */
+
+.containerFather {
+    display: flex;
+    flex-direction: row;
+}
+
+.containerLeft {
+    width: 50%;
+    align-items: center;
+    background-color: #000000;
+    flex: 1;
+    padding: 1rem;
+}
+
+.containerRight {
+    width: 50%;
+    text-align: center;
+    background-color: #000000;
+    flex: 1;
+    padding: 1rem;
+}
+
+.typewriter {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.typewriter span {
+    text-transform: uppercase;
+    animation: cursor 1s ease-in-out infinite;
+}
+
+.containerRight video {
+    width: 100%;
+}

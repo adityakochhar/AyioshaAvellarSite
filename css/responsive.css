@@ -1,0 +1,36 @@
+@media (max-width: 444px) {
+    .musicalLinks {
+        flex-wrap: wrap;
+        margin-bottom: 1%;
+        margin-left: 5%;
+        justify-content: center;
+    }
+    .flexLink {
+        flex: 0 0 50%;
+    }
+    .content {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 568px) {
+    .section-orange,
+    .section-sea,
+    .section-dark {
+        background-attachment: scroll;
+    }
+
+    .containerRight video {
+        width: 90%;
+    }
+
+    .containerFather {
+        display: flex;
+        flex-direction: column;
+    }
+    .containerRight,
+    .containerLeft {
+        width: 100%;
+        text-align: left;
+    }
+}
