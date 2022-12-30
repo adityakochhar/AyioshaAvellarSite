@@ -34,3 +34,9 @@
         width: 100%;
     }
 }
+
+@media (max-width: 760px) {
+    .imgsScaleDown {
+        width: 100%;
+    }
+}

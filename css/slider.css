@@ -31,7 +31,7 @@
 }
 
 .slide:nth-child(1) {
-    background-image: url(../img/img1.jpg);    
+    background-image: url(../img/img1.jpg);
 }
 .slide:nth-child(2) {
     background-image: url(../img/img2.jpg);
@@ -58,10 +58,10 @@
 }
 
 .btn:first-child {
-    left: -0.5em;
+    left: 8.5em;
 }
 .btn:last-child {
-    right: -0.5em;
+    right: 8.5em;
 }
 
 .btn:hover {
@@ -72,12 +72,19 @@
     background: #000;
 }
 
-@media (max-width: 454px) {
+@media (max-width: 760px) {
     .slide {
         background-position: center;
     }
 
     .btn {
         top: -0.5em;
+    }
+
+    .btn:first-child {
+        left: -0.5em;
+    }
+    .btn:last-child {
+        right: -0.5em;
     }
 }
