@@ -1,4 +1,4 @@
-@media (max-width: 444px) {
+@media (max-width: 454px) {
     .musicalLinks {
         flex-wrap: wrap;
         margin-bottom: 1%;
@@ -11,9 +11,6 @@
     .content {
         justify-content: center;
     }
-}
-
-@media (max-width: 568px) {
     .section-orange,
     .section-sea,
     .section-dark {
@@ -31,6 +28,9 @@
     .containerRight,
     .containerLeft {
         width: 100%;
-        text-align: left;
+    }
+
+    .imgsScaleDown {
+        width: 100%;
     }
 }
