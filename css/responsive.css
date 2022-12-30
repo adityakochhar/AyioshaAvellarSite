@@ -29,29 +29,36 @@
     .containerLeft {
         width: 100%;
     }
-
     .imgsScaleDown {
         width: 100%;
     }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 769px) {
     .slide {
         background-position: center;
     }
-
     .btn {
         top: -0.5em;
     }
-
+    .imgsScaleDown {
+        width: 90%;
+    }
     .btn:first-child {
-        left: -0.5em;
+        left: 0;
     }
     .btn:last-child {
-        right: -0.5em;
+        right: 0;
     }
+}
 
-     .imgsScaleDown {
-        width: 100%;
+@media (min-width: 900px) {
+    .btn:first-child {
+        left: 10%;
+        font-size: 70px;
+    }
+    .btn:last-child {
+        right: 14%;
+        font-size: 70px;
     }
 }
