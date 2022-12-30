@@ -36,7 +36,22 @@
 }
 
 @media (max-width: 760px) {
-    .imgsScaleDown {
+    .slide {
+        background-position: center;
+    }
+
+    .btn {
+        top: -0.5em;
+    }
+
+    .btn:first-child {
+        left: -0.5em;
+    }
+    .btn:last-child {
+        right: -0.5em;
+    }
+
+     .imgsScaleDown {
         width: 100%;
     }
 }
