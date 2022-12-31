@@ -28,8 +28,9 @@ html {
 
 .section-dark {
     background: #000000;
-    color: #ddd;
-    margin: 5%;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 15px;
 }
 
 .ptext {
@@ -78,7 +79,6 @@ html {
     flex: 1;
     padding: auto;
     margin: auto;
-    border: white;
 }
 
 .containerRight {
