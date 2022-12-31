@@ -31,10 +31,16 @@
     }
     .imgsScaleDown {
         width: 100%;
-    }
+    }    
 }
 
-@media (max-width: 769px) {
+@media (max-width: 836px) {
+    .menu img {
+        padding: 0%;
+    }     
+}
+
+@media (max-width: 899px) {
     .slide {
         background-position: center;
     }

@@ -78,6 +78,7 @@ html {
     flex: 1;
     padding: auto;
     margin: auto;
+    border: white;
 }
 
 .containerRight {

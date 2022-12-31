@@ -53,7 +53,6 @@
     font-size: 35px;
     cursor: pointer;
     user-select: none;
-    transition: background 150ms ease-in-out;
     filter: invert(100%)
 }
 
@@ -69,5 +68,4 @@
 }
 .btn:active {
     transform: scale(0.97);
-    background: #000;
 }
