@@ -12,12 +12,12 @@ html {
     font-weight: 400;
     color: var(--grey);
     margin: 1%;
-    background-color: black;
+    background-color: #000000;
 }
 
 .section-sea {
     height: 50%;
-    background-color: black;
+    background-color: #000000;
 }
 
 .section-orange {
