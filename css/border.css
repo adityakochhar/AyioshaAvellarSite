@@ -1,0 +1,27 @@
+.gradient-border {
+    --border-width: -5px;
+    position: relative;
+    background-color: var(--background-color);
+}
+.gradient-border::before,
+.gradient-border::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+}
+.gradient-border::after {
+    top: var(--border-width);
+    left: var(--border-width);
+    right: var(--border-width);
+    bottom: var(--border-width);
+    z-index: -1;
+}
+.gradient-border::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    filter: blur(40px);
+}
+
